@@ -1,0 +1,23 @@
+{
+  "name": "Git Up",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Move Github repository's readme to the top",
+  "homepage_url": "https://www.aniket.co",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+ {
+ "matches": ["https://github.com/*"],
+  "js": ["js/content.js"],
+  "run_at": "document_end"
+ }
+],
+  "default_locale": "en",
+  "permissions": [
+    "https://github.com/*"
+  ]
+}

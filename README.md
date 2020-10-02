@@ -5,6 +5,9 @@ Browser Extension which moves Github repository's readme to the top
 
 ### Install the extension from [Chrome store][chrome-store]
 
+### Features Added
+- [Make README collapsable](https://github.com/aniketkudale/Git-Up/issues/1) suggestion by [@Ani-Xan](https://github.com/Ani-Xan)
+
 ## Bugs/Issues
 You can submit your bugs or issues [here][github-issues]
 
